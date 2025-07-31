@@ -1,0 +1,12 @@
+pyrogram
+py-tgcalls
+tgcrypto
+youtube_search
+requests
+yt-dlp
+pillow
+aiofiles
+numpy
+aiohttp
+ffmpeg-python
+motor

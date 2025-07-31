@@ -1,0 +1,47 @@
+{
+  "name": "Music Bot",
+  "description": "A powerful Telegram Music Player Bot built with Python, Pyrogram, and Py-Tgcalls.",
+  "logo": "https://graph.org/file/5d73d3a4940ea78fbc7f3.jpg",
+  "keywords": [
+    "python3",
+    "telegram",
+    "music-bot",
+    "pyrogram",
+    "telegram-bot"
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "🤖 Bot token from @BotFather",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "🌐 MongoDB connection string. Get it from https://cloud.mongodb.com",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "👑 Your Telegram user ID (as bot owner)",
+      "required": true
+    },
+    "SESSION_STRING": {
+      "description": "🧵 Pyrogram v2 string session (use session generator tool)",
+      "required": true
+    },
+    "UPDATE_CHANNEL": {
+      "description": "📢 Your bot's update channel link. Leave empty if not available.",
+      "required": false
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "💬 Your support group or channel link. Leave empty if not available.",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "stack": "container"
+}
