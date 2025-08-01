@@ -3,7 +3,7 @@
 <p>I’m a smooth and reliable music bot, simple, unique, and built for non-stop music.
 No lags, no glitches - just pure sound. Let’s vibe! </p>
 
-<p align="center"><img src="https://graph.org/file/ffbaa6d0fe89bdf98886b-9760febe78f97be25e.jpg" width="300"></a></p>
+<p align="center"><img src="https://media.animerealms.org/image/AgACAgUAAx0EboWBewACmKBojCkPUdWBhp3UMe294WDaSqwBlgACJsgxG5W9YVRsYPzdf4h6zQEAAwIAA3kAAzYE" width="300"></a></p>
 <p align="center">
 
 
